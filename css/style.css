@@ -1,0 +1,634 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    header {
+        max-width: 100vw;
+        height: 100vh;
+        background-image: url("./../img/scandinavian-interior-mockup-wall-decal-background 1.png");
+        background-size: cover;
+        position: relative;
+        background-position: center;
+    }
+
+    .hero {
+        max-width: 100%;
+        height: calc(100vh - 130px);
+    }
+
+    nav {
+        width: 100%;
+        height: 130px;
+        padding: 0 5.1244vw;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    nav h1 {
+        padding-top: 45px;
+        color: #054C73;
+        font-family: Montserrat;
+        font-size: 2.125rem;
+
+        font-weight: 700;
+
+    }
+
+    nav ul {
+        margin-top: 61px;
+        padding-bottom: 61px;
+        display: flex;
+        list-style: none;
+        gap: 60px;
+    }
+
+    nav a {
+        color: #333;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none;
+
+    }
+
+    nav .menu {
+        width: 24px;
+        height: 24px;
+        color: #6D6D70;
+        background: none;
+        border: none;
+        margin-top: 48px;
+        display: none;
+
+    }
+
+    .hero .rect {
+        max-width: 643px;
+        height: 446px;
+
+
+
+        position: absolute;
+        right: 0;
+        background-color: #DFE9F4;
+        padding: 6.1633vh 3.7335vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 5px;
+
+
+
+
+
+    }
+
+    .rect span {
+        max-width: 129.292px;
+        color: #333;
+
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        line-height: 20px;
+
+    }
+
+    .rect h1 {
+        max-width: 450px;
+
+        color: #054C73;
+        font-family: Montserrat;
+        font-size: 3.25rem;
+
+        font-weight: 700;
+        line-height: 4.0625rem;
+    }
+
+    .rect p {
+        max-width: 520px;
+
+        color: #333;
+        font-family: Montserrat;
+        font-size: 1.125rem;
+
+        font-weight: 500;
+        line-height: 2.4375rem;
+    }
+
+    .buy,
+    .learn {
+
+        width: 253px;
+        height: 68px;
+
+        border-radius: 50px;
+        background-color: #054C73;
+        color: #FFF;
+
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+
+
+        font-weight: 700;
+
+    }
+
+
+    .service {
+
+        max-width: 100vw;
+        padding: 45px 0;
+
+        display: flex;
+        justify-content: center;
+        gap: 12vw;
+
+
+
+        flex-wrap: wrap-reverse;
+        background-color: #F2F5FF;
+    }
+
+    .service .free {
+
+        max-width: 332px;
+        display: flex;
+        gap: 29.5px;
+
+
+
+
+    }
+
+    .service .free .fr,
+    .number {
+        font-family: Montserrat;
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 29.26px;
+
+
+    }
+
+    .service .free img {
+        width: 88px;
+    }
+
+    .service .free p {
+        padding-top: 7px;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #333333;
+
+    }
+
+    .service .free .lor {
+        padding-top: 10px;
+        min-width: max-content;
+
+    }
+
+    .collection h1,
+    .container h1,
+    .browse h1,
+    .work h1,
+    .work .cardcon h1,
+    .join h1 {
+        width: max-content;
+        padding-top: 100px;
+        margin: 0 auto;
+        font-family: Montserrat;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 39px;
+        color: #333333;
+
+
+    }
+
+    .work .cardcon h1 {
+        padding-top: 0;
+    }
+
+    .collection p,
+    .lorem p,
+    .browse p,
+    .work p,
+    .left p {
+
+        max-width: 490px;
+        font-family: Montserrat;
+        font-size: 1.25rem;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 10px;
+        color: #666666;
+
+
+
+    }
+
+    .work p {
+        max-width: 361px;
+    }
+
+    .container,
+    footer {
+        display: flex;
+        padding-top: 70px;
+        padding-left: 5.1244vw;
+        padding-bottom: 0;
+        padding-right: 5.1244vw;
+        justify-content: center;
+        gap: 4.3923vw;
+        flex-wrap: wrap;
+    }
+
+    .learn {
+        margin-bottom: 30px;
+    }
+
+    .container .card {
+        max-width: 330px;
+        max-height: 430px;
+
+
+    }
+
+
+    .collection .container .card .img1 {
+
+        border-top-left-radius: 50px;
+    }
+
+    .collection .container .card .img2 {
+
+        position: relative;
+        bottom: 2.1961vw;
+    }
+
+    .collection .container .card .img3 {
+
+        border-bottom-right-radius: 50px;
+    }
+
+    .collection .container .card img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .container h1 {
+        margin: 0 0;
+        padding-top: 0;
+    }
+
+    .container .lorem {
+        margin: 0 0;
+
+    }
+
+    .container .lorem p,
+    footer .left p {
+        max-width: 495px;
+
+        text-align: left;
+        margin: 0 0;
+        line-height: 39px;
+
+
+    }
+
+    .container .do {
+        padding: 45px 0;
+    }
+
+    .container .beauty {
+        max-width: 601px;
+        max-height: 528px;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .browse p,
+    .work p {
+        max-width: 530px;
+
+
+
+    }
+
+    .browse .container .card img,
+    .work .container .card img {
+
+        border-radius: 10px;
+    }
+
+    .browse .container .card span {
+        text-align: center;
+        display: block;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        padding-top: 20px;
+    }
+
+    .browse .container {
+        gap: 60px;
+    }
+
+    hr {
+        margin-top: 100px;
+    }
+
+    .outcircle,
+    .smallcircle {
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .outcircle {
+        width: 90px;
+        height: 90px;
+        background-color: white;
+        margin: auto;
+        position: relative;
+        bottom: 45px;
+    }
+
+    .smallcircle {
+        width: 60px;
+        height: 60px;
+        background-color: black;
+        color: white;
+    }
+
+    .smallcircle .number {
+        font-size: 24px;
+    }
+
+    .work .cardcon h1,
+    footer .left h1,
+    .right h1 {
+        font-size: 1.5rem;
+        padding-top: 1vh;
+    }
+
+    .work .cardcon {
+        width: 350px;
+        max-height: 550px;
+
+    }
+
+    .join {
+        width: 100%;
+        height: 500px;
+        background-color: #DFE9F4;
+        margin-top: 90px;
+        text-align: center;
+    }
+
+    .join p {
+        max-width: 530px;
+        color: #666;
+        line-height: 39px;
+
+        font-family: Montserrat;
+        font-size: 1.25rem;
+        margin: auto;
+        padding-top: 12px;
+        font-weight: 400;
+    }
+
+    form {
+
+        height: 70px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .in {
+        width: 300px;
+        height: 70px;
+        border-radius: 3px;
+        border: 1px solid #054C73;
+        background: #FFF;
+
+        color: #011C42;
+        font-family: Montserrat;
+        font-size: 16px;
+
+        font-weight: 400;
+        padding-left: 30px;
+
+    }
+
+    .sub {
+        width: 145px;
+        height: 70px;
+        border-radius: 3px;
+        border: 1px solid #011C42;
+        background: #054C73;
+        color: white;
+    }
+
+    footer {
+        max-width: 100vw;
+
+        background: #03344F;
+        color: white;
+        gap: 13vw;
+        padding-bottom: 120px;
+
+
+    }
+
+    footer h1 {
+        color: white;
+
+
+    }
+
+    footer .left h1 {
+
+        max-width: 200px;
+    }
+
+    footer .right h1 {
+        text-align: right;
+
+    }
+
+    footer .left p {
+        max-width: 400px;
+        padding-top: 25px;
+        color: white;
+        font-size: 1.25rem;
+
+    }
+
+    footer .right {
+        max-width: 600px;
+    }
+
+    footer .left {
+        max-width: 600px;
+    }
+
+    .footerimg {
+        padding-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .footerimg .footimg {
+        max-width: 160px;
+
+    }
+
+
+
+    @media screen and (max-width:992px) {
+        nav ul {
+            display: none;
+        }
+
+        nav .menu {
+            display: block;
+        }
+
+        .hero .rect {
+            min-width: 310px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            background: none;
+            text-align: center;
+            padding: 6.1633vh 0;
+        }
+
+        .rect .buy {
+            margin: auto;
+        }
+
+        .rect h1 {
+            min-width: 280px;
+
+        }
+
+        .rect span {
+            margin: auto;
+        }
+
+        .rect p {
+            margin: auto;
+            width: 250px;
+        }
+
+        .amet {
+            display: none;
+        }
+
+        .container .lorem {
+            margin: 0 auto;
+        }
+
+        .collection p,
+        .browse p,
+        .work p,
+        .join p,
+        .left p,
+        .lorem p {
+            width: 250px;
+        }
+
+        .collection .container .card,
+        .cardcon .card {
+            min-width: 280px;
+
+        }
+
+        .collection .container .card .img2 {
+
+            position: static;
+
+        }
+
+        .container .beauty {
+            min-width: 300px;
+            min-height: 340px;
+
+        }
+
+        .container .cardcon h1,
+        .container .cardcon p {
+            min-width: 290px;
+            text-align: left;
+        }
+
+        .in {
+            min-width: 280px;
+
+
+        }
+
+        form {
+            gap: 20px;
+        }
+
+        html {
+            font-size: 10px;
+        }
+
+        .footerimg .footimg {
+            width: 120px;
+
+        }
+
+        .footerimg {
+            min-width: 300px;
+
+        }
+
+        footer .right h1 {
+            text-align: left;
+
+
+
+        }
+
+        .left,
+        .right {
+            min-width: 300px;
+        }
+
+
+
+
+
+
+
+
+    }
